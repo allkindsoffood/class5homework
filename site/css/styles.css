@@ -35,9 +35,15 @@ body {
   line-height: 1.4;
   background: #fad46b; }
 
+.wrap {
+  padding-left: 200px; }
+
 .sidebar {
+  padding-right: 100px;
   width: 100%;
   height: 100%;
+  margin-left: -200px;
+  position: relative;
   padding-bottom: 14%;
   background: url(../images/hero.png) bottom left no-repeat;
   background-size: 20%; }
@@ -178,13 +184,14 @@ ul {
 .content {
   width: 100%;
   min-height: 100%;
-  background: #FFF; }
+  background: #fad46b; }
   @media screen and (min-width: 760px) {
     .content {
       float: left;
       width: 80%; } }
   .content .portfolio-item {
-    background: #e1eef3; }
+    background: #FFF;
+    width: 100%; }
     .content .portfolio-item:before {
       content: "";
       position: absolute;
@@ -277,5 +284,3 @@ div.loading {
     -webkit-transform-origin: center center;
     -ms-transform-origin: center center;
     transform-origin: center center; } }
-
-/*# sourceMappingURL=styles.css.map */
